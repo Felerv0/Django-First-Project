@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Обо мне</title>
+        <link rel="stylesheet" href="{% static 'about.css' %}" type="text/css">
+    </head>
+    <body>
+        <h1>Иванов Григорий Андреевич</h1>
+        <img src="{% static 'img/me.jpg' %}" id="me">
+        <p class="info">Я из города Чебоксары, учусь в МБОУ "Лицей №44". Я увлекаюсь программированием на разных языках. 
+            Мои любимые языки: <span class="language py">Python</span> и <span class="language cpp">C++</span>. 
+            Я успешно окончил Лицей Академии Яндекса. Мне также нравится решать олимпиадные задачки по информатике. 
+            Сейчас изучаю <span class="language java">Java</span>, чтобы разрабатывать мобильные приложения. 
+            Я создал пару небольших игр на языке <span class="language py">Python</span>, которые вы можете найти на моём <a href="https://github.com/Felerv0">
+                <img src="{% static 'img/gh.png' %}" id="gh">GitHub</a></p>
+    </body>
+</html>
